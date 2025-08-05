@@ -7,7 +7,7 @@ This project demonstrates how to integrate **Redis caching** into a **Spring Boo
 ## Tech Stack
 - Java 17+
 - Spring Boot
-- Spring Data JPA (or MongoDB, if used)
+- Spring Data JPA ( MongoDB)
 - Spring Cache
 - Redis (via Jedis or Lettuce)
 - Maven
@@ -86,6 +86,7 @@ public class Config {
     }
 }
 ```
+
 
 
 
